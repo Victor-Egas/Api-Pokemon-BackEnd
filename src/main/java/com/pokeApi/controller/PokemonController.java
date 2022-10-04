@@ -21,6 +21,7 @@ public class PokemonController {
 	
 	@GetMapping("/findAll")	public ResponseEntity<List<Pokemon>>findAllPokemon() throws Exception{
 		List<Pokemon> lista=service.findAll();//EL HTTPRESPONSE ES PARA METER EL OBJETO DE RESPUESTA(LIST)
+		System.out.println("Prueba");
 		return new ResponseEntity<List<Pokemon>>(lista , HttpStatus.OK);
 	}
 
