@@ -24,6 +24,7 @@ public class PokemonController {
 		System.out.println("Prueba");
 		System.out.println("Prueba 1");
 		System.out.println("Prueba 2");
+		System.out.println("Prueba 3");
 		return new ResponseEntity<List<Pokemon>>(lista , HttpStatus.OK);
 	}
 
