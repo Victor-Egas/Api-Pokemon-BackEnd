@@ -23,6 +23,7 @@ public class PokemonController {
 		List<Pokemon> lista=service.findAll();//EL HTTPRESPONSE ES PARA METER EL OBJETO DE RESPUESTA(LIST)
 		System.out.println("Prueba");
 		System.out.println("Prueba 1");
+		System.out.println("Prueba 2");
 		return new ResponseEntity<List<Pokemon>>(lista , HttpStatus.OK);
 	}
 
